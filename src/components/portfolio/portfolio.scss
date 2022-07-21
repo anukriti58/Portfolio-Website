@@ -1,67 +1,129 @@
 @import "../../global.scss";
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
 
+.portfolio {
 
-.portfolio{
+    background-color: whitesmoke;
+    //background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     background-image: linear-gradient( #9ce9f3,#d6b8f7);
-    //background-image: linear-gradient(#9ce9f3,#25bbcf);
-    //background-color: grey;
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1{
-        //font-family: 'Cormorant SC', serif;
-        font-size: 50px;
-    }
-    ul{
-        margin: 10px;
-        padding: 0;
-        list-style: none;
-        display: flex;
-
-        li{
-            font-size: 20px;
-            margin-right: 50px;
-            padding: 7px;
-            border-radius: 10px;
-            cursor: pointer;
-
-            &.active{
-                background-color: $mainColor;
-                color: white;
-            }
-
-        }
-    }
-    .container{
-        width: 70%;
+    justify-content: center;
+    .one{
         display: flex;
         align-items: center;
         justify-content: center;
-        //flex-wrap: wrap;
-
-        .item{
-            margin-top: 2%;
-            margin-right: 2%;
-            width: 450px;
-            height: 350px;
-            border-radius: 20px;
-            border: 1px solid rgb(86, 52, 117);
-            border-width: 2.5px;
+        height: 90%;
+        width: 98%;
+        // border: 1px solid black;
+        .first{
+            margin: 0px 20px;
+            height: 90%;
+            width: 400px;
+            // background-color: rgb(90, 230, 162);
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            color: white;
-            position: relative;
-            margin-top: 10px;
-
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                z-index: 1;
+            justify-content: flex-end;
+            .about{
+                height: 65%;
+                width: 95%;
+                border: 1px solid black;
+                // background-color: white;
+                h1{
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: rgb(0, 0, 0);
+                    padding-bottom: 25px;
+                    padding-top: 35px;
+                }
+                p{
+                    color: rgb(51, 48, 48);
+                    text-align: center;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
             }
         }
-        
+        .second{
+            margin: 0px 20px;
+            height: 90%;
+            width: 450px;
+            background-image: url(https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+        .third{
+            margin: 0px 20px;
+            height: 90%;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .tech{
+                height: 70%;
+                width: 95%;
+                background-color: rgb(220, 170, 153);
+                h1{
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: rgb(0, 0, 0);
+                    padding-top: 35px;
+                    padding-bottom: 30px;
+                }
+                .flex-container {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    .left{
+                        font-weight: 400;
+                        margin-left: 45px;
+                        margin-right: 65px;
+                        p{
+                            margin-bottom: 9px;
+                        }
+                    }
+                    .right{
+                            font-weight: 400;
+                            p{
+                                margin-bottom: 9px;
+                            }
+                        }
+                    }
+            }
+            .design{
+                height: 25%;
+                width: 95%;
+                background-color: rgb(113, 145, 161);
+                h1{
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    color: rgb(0, 0, 0);
+                    padding-top: 8px;
+                    padding-bottom: 10px;
+                }
+                .flex-container {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    .left{
+                        font-weight: 400;
+                        margin-left: 45px;
+                        margin-right: 65px;
+                        p{
+                            margin-bottom: 7px;
+                        }
+                    }
+                    .right{
+                            font-weight: 400;
+                            p{
+                                margin-bottom: 7px;
+                            }
+                        }
+                    }
+            }
+        }
     }
 }

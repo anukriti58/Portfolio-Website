@@ -1,57 +1,57 @@
 import "./portfolio.scss"
-import { useEffect, useState } from "react";
-import PortfolioList from "../portfolioList/PortfolioList";
+// import { useState } from "react";
+// import PortfolioList from "../portfolioList/PortfolioList";
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("about_me");
-  const list = [
-    {
-      id: "about_me",
-      title: "About Me",
-    },
-    {
-      id: "programming",
-      title: "Programming",
-    },
-    {
-      id: "web_development",
-      title: "Web Devlopment",
-    },
-    {
-      id: "Writing",
-      title: "Writing",
-    },
-  ];
-  return (
+  return (  
     <div className="portfolio" id="portfolio">
-        <h1> Portfolio</h1>
-        <ul>
-        {list.map((item) => (
-            <PortfolioList
-              title={item.title}
-              active={selected === item.id}
-              setSelected={setSelected}
-              id={item.id}
-            />
-          ))}
-        </ul>
-        <div className="container">
-          <div className="item">
-            <img
-              src="https://i.pinimg.com/originals/95/ba/ff/95baff8df4348f995884d5f7d55f3518.jpg"
-              // src="https://static.vecteezy.com/system/resources/previews/006/427/218/non_2x/abstract-pink-or-apricot-watercolor-background-with-gold-texture-blush-fluid-painting-spring-wedding-invitation-dusty-rose-or-veil-texture-alcohol-ink-vector.jpg"
-              alt=""
-            />
-          </div>
+      <div className="one">
+      <div className="first">
+        <div className="about">
+          <h1>ABOUT ME</h1>
+          <p> Business computing frequently involves the use of management-information systems that drive logistics and
+          operations, enterprise resource planning (ERP), customer relation management (CRM), office productivity, and
+          business intelligence (BI). Such tools enabled more streamlined processes that led to improved. </p>
+        </div>
+      </div>
+      <div className="second">
 
-          <div className="item">
-            <img
-              src="https://i.pinimg.com/originals/95/ba/ff/95baff8df4348f995884d5f7d55f3518.jpg"
-              // src="https://static.vecteezy.com/system/resources/previews/006/427/218/non_2x/abstract-pink-or-apricot-watercolor-background-with-gold-texture-blush-fluid-painting-spring-wedding-invitation-dusty-rose-or-veil-texture-alcohol-ink-vector.jpg"
-              alt=""
-            />
+      </div>
+      <div className="third">
+        <div className="tech">
+          <h1>TECHNICAL SKILLS</h1>
+          <div className="flex-container">
+            <div className="left">
+              <p>Cpp</p>
+              <p>HTML5</p>
+              <p>CSS</p>
+              <p>ReactJS</p>
+              <p>Javascript</p>
+            </div>
+            <div className="right">
+              <p>C</p>
+              <p>Data Structures</p>
+              <p>Algortithms</p>
+              <p>OOPs</p>
+              <p>MySQL</p>
+            </div>
           </div>
         </div>
+        <div className="design">
+          <h1>OTHER SKILLS</h1>
+          <div className="flex-container">
+            <div className="left">
+              <p>Communication</p>
+              <p>Presentation</p>
+            </div>
+            <div className="right">
+              <p>Designing</p>
+              <p>Writing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
