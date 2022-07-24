@@ -9,9 +9,9 @@ export default function Portfolio() {
       <div className="first">
         <div className="about">
           <h1>ABOUT ME</h1>
-          <p> Business computing frequently involves the use of management-information systems that drive logistics and
-          operations, enterprise resource planning (ERP), customer relation management (CRM), office productivity, and
-          business intelligence (BI). Such tools enabled more streamlined processes that led to improved. </p>
+          <p> Hey, I'm a third-year undergrad pursuing electronics and communication engineering, focused on
+             data structures and algorithms and web development. I'm trying to pull out all the stops to implement
+            everything I've acquired. Besides these technical skills writing is also something I find interseting.</p>
         </div>
       </div>
       <div className="second">

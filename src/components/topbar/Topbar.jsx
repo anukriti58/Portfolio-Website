@@ -24,7 +24,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           </div>
         </div>
         <div className="middle">
-          <a href="#intro" className="logo">Stupefy!</a>
+          <a href="#intro" className="logo">Portfolio</a>
         </div>
         <div className="right">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
@@ -82,29 +82,4 @@ export default function Topbar({menuOpen, setMenuOpen}) {
 //     </div>
 //   )
 // }
-
-{/*<div className={"topbar " + (menuOpen && "active")}>
-      <div className="wrapper">
-        <div className="left">
-        <a href="#intro" className="logo">
-            Awesome :)
-          </a>
-          <div className="itemContainer">
-            <Phone className="icon" />
-            <span>+91 7014 575 185</span>
-          </div>
-          <div className="itemContainer">
-            <Mail className="icon" />
-            <span>anukritishri@gmail.com</span>
-          </div>
-          </div>
-        <div className="right">
-          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
-          </div>
-        </div>
-      </div>
-  </div>*/}
 
