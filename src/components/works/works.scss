@@ -1,8 +1,8 @@
 @import "../../global.scss";
 
 .works {
-  background-image: linear-gradient(#E1FCFD, #67d4e2);
-  //background-color: crimson;
+  //background-image: linear-gradient(#E1FCFD, #67d4e2);
+  background-color: #100c0d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,12 +18,12 @@
     // }
 
     &.left {
-      left: 100px;
+      left: 200px;
       transform: rotateY(180deg);
     }
 
     &.right {
-      right: 100px;
+      right: 200px;
     }
   }
 
@@ -51,16 +51,16 @@
       .item {
         width: 700px;
         height: 89%;
-        background-color: white;
+        background-color: #c7a794;
         border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         //border: 5px solid black;
         animation: mymove 5s infinite;
-        box-shadow: 10px 10px 5px rgb(101, 24, 121);
+        box-shadow: 5px 5px 5px #7a5915;
         @keyframes mymove {
-          30% {box-shadow: 10px 20px 30px rgb(0, 0, 0);}
+          30% {box-shadow: 10px 10px 10px #462e11;}
         }
         
         
@@ -88,7 +88,7 @@
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              background-color: rgb(245, 179, 155);
+              background-color: rgb(167, 90, 62);
               display: flex;
               align-items: center;
               justify-content: center;

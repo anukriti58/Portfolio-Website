@@ -1,8 +1,8 @@
 .intro{
-    background-image: linear-gradient(#E1FCFD, #67d4e2);
+    //background-image: linear-gradient(#E1FCFD, #67d4e2);
     //background-image: linear-gradient(#E1FCFD,#9ce9f3);
     //background-image: linear-gradient(#E1FCFD, #9ce9f3);
-    //background-color: #E1FCFD;
+    background-color: #100C0D;
     display: flex;
 
     .left{
@@ -28,6 +28,7 @@
         flex: 0.5;
         display: relative;
         .wrapper{
+            color: #CC8B65;
             width: 100%;
             height: 100%;
             padding-left: 50px;
@@ -55,7 +56,8 @@
         bottom: 10px;
         left: 70%;
         img{
-            width: 45px;
+            width: 80px;
+            height: 80px;
             animation: arrowBlink 2s infinite;
         }
         @keyframes arrowBlink {

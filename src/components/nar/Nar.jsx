@@ -33,7 +33,7 @@ export default function Nar() {
       "assets/nar3.png",
 
     desc:
-      "blah blah blah",
+      "Managing the work under the society and contributing towards the managment, at LNMIIT",
   },
   {
     id: 3,
