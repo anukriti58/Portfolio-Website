@@ -7,7 +7,6 @@ export default function Animations() {
         <div> Programmer</div>
         <div> Web Developer</div>
         <div> Content Writter</div>
-        <div> Orator</div>
         </div>
     </div>
   )

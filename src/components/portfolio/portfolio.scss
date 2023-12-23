@@ -3,7 +3,7 @@
 
 .portfolio {
 
-    background-color: #393232;
+    background-color: $mainColor;
     //background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     //background-image: linear-gradient( #9ce9f3,#d6b8f7);
     display: flex;
@@ -29,17 +29,17 @@
             .about{
                 height: 65%;
                 width: 95%;
-                border: 2px solid #d3b6b6;
+                border: 2px solid #3e7e55;
                 // background-color: white;
                 h1{
                     text-align: center;
                     font-family: 'Courier New', Courier, monospace;
-                    color: #d3b6b6;
+                    color: #3e7e55;
                     padding-bottom: 25px;
                     padding-top: 40px;
                 }
                 p{
-                    color: #e0a4a4;
+                    color: #3e7e55;
                     text-align: center;
                     padding-left: 25px;
                     padding-right: 25px;
@@ -67,7 +67,7 @@
                 width: 95%;
                 background-color: #d3b6b6;
                 //background-image: linear-gradient(to right, #d3b6b6,#ED8D8D);
-                background-image: linear-gradient(to bottom right, #d3b6b6, #ED8D8D);
+                background-image: linear-gradient(to bottom right,#CADEA8, #AADCB6);
                 h1{
                     text-align: center;
                     font-family: 'Courier New', Courier, monospace;
@@ -101,7 +101,7 @@
                 width: 95%;
                 //background-color: #e6e6e6;
                 background-color:#fbc687;
-                background-image: linear-gradient(to bottom right, #d3b6b6, #ED8D8D);
+                background-image: linear-gradient(to bottom right,#CADEA8, #AADCB6);
                 h1{
                     text-align: center;
                     font-family: 'Courier New', Courier, monospace;

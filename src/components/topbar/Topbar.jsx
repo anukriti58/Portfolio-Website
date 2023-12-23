@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import {Phone,Mail,LinkedIn,Instagram,GitHub} from "@material-ui/icons"
+import {Mail,LinkedIn,Instagram,GitHub} from "@material-ui/icons"
 
 
 export default function Topbar({menuOpen, setMenuOpen}) {
@@ -11,16 +11,16 @@ export default function Topbar({menuOpen, setMenuOpen}) {
             <Phone className="icon" />
           </div> */}
           <div className="itemContainer">
-          <a href="mailto:anukritishri@gmail.com" target="_blank"><Mail className="icon" /></a>
+          <a href="mailto:anukritishri@gmail.com" rel="noreferrer" target="_blank" ><Mail className="icon" /></a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/anukriti-shrivastava-255477204/" target="_blank"><LinkedIn className="icon" /></a>
+            <a href="https://www.linkedin.com/in/anukriti-shrivastava-255477204/" rel="noreferrer" target="_blank"><LinkedIn className="icon" /></a>
           </div>
           <div className="itemContainer">
-          <a href="https://github.com/anukriti58" target="_blank"><GitHub className="icon" /></a>
+          <a href="https://github.com/anukriti58"rel="noreferrer"  target="_blank"><GitHub className="icon" /></a>
           </div>
           <div className="itemContainer"> 
-          <a href="https://www.instagram.com/anukriitiiii/" target="_blank"><Instagram className="icon" /></a>
+          <a href="https://www.instagram.com/anukriitiiii/" rel="noreferrer" target="_blank"><Instagram className="icon" /></a>
           </div>
         </div>
         <div className="middle">

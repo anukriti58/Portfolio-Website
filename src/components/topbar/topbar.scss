@@ -3,8 +3,8 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: #4D4545;
-  color: $mainColor;
+  background-color: $mainColor;
+  color: #3e7e55;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -23,11 +23,6 @@
       .itemContainer {
         display: flex;
         align-items: center;
-        // margin-left: 30px;
-
-        // @include mobile{
-        //   display: none;
-        // }
         a{
           text-decoration: none;
           color: inherit;
@@ -71,7 +66,7 @@
         span {
           width: 100%;
           height: 3px;
-          background-color: $mainColor;
+          background-color: #3e7e55;
           transform-origin: left;
           transition: all 2s ease;
         }
@@ -80,130 +75,23 @@
   }
 
   &.active {
-    background-color: $mainColor;
-    color: #4D4545;
+    background-color: #AADCB6;
+    color: #3e7e55;
 
     .hamburger {
       span {
         &:first-child {
-          background-color: #4D4545;
+          background-color: #3e7e55;
           transform: rotate(044deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: #4D4545;
+          background-color: #3e7e55;
           transform: rotate(-45deg);
         }
       }
     }
   }
 }
-
-
-
-// @import "../../global.scss";
-
-// .topbar {
-//   width: 100%;
-//   height: 70px;
-//   background-color: #4D4545;
-//   color: $mainColor;
-//   position: fixed;
-//   top: 0;
-//   z-index: 4;
-//   transition: all 1s ease;
-
-//   .wrapper {
-//     padding: 10px 30px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-
-//     .left {
-//       display: flex;
-//       align-items: center;
-
-//       .itemContainer {
-//         display: flex;
-//         align-items: center;
-//         // margin-left: 30px;
-
-//         // @include mobile{
-//         //   display: none;
-//         // }
-//         a{
-//           text-decoration: none;
-//           color: #ED8D8D;
-//         }
-//         .icon {
-//           height: 30px;
-//           width: 30px;
-//           // font-size: 32px;
-//           margin-right: 15px;
-//           // border-radius: 50%;
-//           // box-shadow: 1px 4px 4px rgba(15, 143, 152, 0.2);
-//         }
-
-//         // span {
-//         //   font-size: 15px;
-//         //   font-weight: 500;
-//         //   margin-right: 15px;
-//         // }
-//       }
-//     }
-    
-//     .middle {
-//       .logo {
-//         font-size: 40px;
-//         font-weight: 700;
-//         text-decoration: none;
-//         color: #ED8D8D;
-//         margin-right: 100px;
-//       }
-//     }
-
-//     .right {
-//       .hamburger {
-//         width: 32px;
-//         height: 25px;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         cursor: pointer;
-
-//         span {
-//           width: 100%;
-//           height: 3px;
-//           background-color: #ED8D8D;
-//           transform-origin: left;
-//           transition: all 2s ease;
-//         }
-//       }
-//     }
-//   }
-
-//   &.active {
-//     background-color: #ED8D8D;
-//     color: #4D4545;
-    
-//     .hamburger {
-//       span {
-//         &:first-child {
-//           background-color: #4D4545;
-//           transform: rotate(044deg);
-//         }
-//         &:nth-child(2) {
-//           opacity: 0;
-//         }
-//         &:last-child {
-//           background-color: #4D4545;
-//           transform: rotate(-45deg);
-//         }
-//       }
-//     }
-//   }
-// }
-
-

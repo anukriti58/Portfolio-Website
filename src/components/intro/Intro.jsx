@@ -1,6 +1,6 @@
 import "./intro.scss";
-import { useEffect} from "react";
-import { init } from "ityped";
+// import { useEffect} from "react";
+// import { init } from "ityped";
 import Animations from "./animations/Animations";
 
 export default function Intro() {

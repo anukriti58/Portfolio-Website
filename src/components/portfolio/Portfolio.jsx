@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="first">
         <div className="about">
           <h1>ABOUT ME</h1>
-          <p> Hey, I'm a third-year undergrad pursuing electronics and communication engineering, focused on
+          <p> Hey, I'm a final year undergrad pursuing electronics and communication engineering, focused on
              data structures and algorithms and web development. I'm trying to pull out all the stops to implement
             everything I've acquired. Besides these technical skills writing is also something I find interseting.</p>
         </div>

@@ -26,15 +26,6 @@ export default function Works() {
       code: "https://github.com/anukriti58/Weather-Station",
       
     },
-    // {
-    //   id: "3",
-    //   icon: "./assets/writing.png",
-    //   title: "",
-    //   desc:
-    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    //   img:
-    //     "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    // },
   ];
 
   const handleClick = (way) => {
@@ -59,7 +50,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span><a href={d.code} target="_blank">Click here for the source code !</a></span>
+                  <span><a href={d.code} rel="noreferrer" target="_blank">Click here for the source code !</a></span>
                 </div>
               </div>
               <div className="right">
